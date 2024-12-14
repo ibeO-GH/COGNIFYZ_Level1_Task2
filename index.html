@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Tasks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Button that changes color -->
+      <button class="button" id="colorButton">Click Me to Change Color</button>
+
+      <!-- Greeting based on the time -->
+      <button class="button" onclick="greetingMessage()">Greetings!</button>
+
+      <!-- Calculator Section -->
+      <div class="calculator">
+        <h2>Basic Calculator</h2>
+        <input
+          type="number"
+          id="num1"
+          class="input-field"
+          placeholder="Enter first number"
+        />
+        <input
+          type="number"
+          id="num2"
+          class="input-field"
+          placeholder="Enter second number"
+        />
+        <button class="button" onclick="addNumbers()">Add</button>
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
