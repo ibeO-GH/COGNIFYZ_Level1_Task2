@@ -4,7 +4,7 @@
 
 This is an internship task to further harness my javascript knowledge.
 
-\*Create the HTML page that has a navbar, an image, a form with a single input field and a button.
+\*Create the HTML page as required.
 
 \*Create the CSS for page styling to give an appealing user interface
 
